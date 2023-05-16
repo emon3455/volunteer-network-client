@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-
+import bnr from "../assets/bnr.jpg";
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1638526970908-b18e32b0bc42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")` }}>
-            <div className="hero-overlay bg-black bg-blend-multiply bg-opacity-50"></div>
+        <div className="hero min-h-screen" style={{ backgroundImage: `url(${bnr})` }}>
+            <div className="hero-overlay bg-black bg-blend-multiply bg-opacity-80"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-2xl">
                     <h1 className="mb-5 text-5xl font-semibold">

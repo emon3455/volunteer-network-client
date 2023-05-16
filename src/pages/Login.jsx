@@ -36,8 +36,8 @@ const Login = () => {
                             <span>Continue with Google</span>
                         </div>
                         <div  className="w-full flex justify-between btn btn-ghost bg-gray-100">
-                            <img className="h-6 w-6" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" />
-                            <span>Continue with Github</span>
+                            <img className="h-6 w-6" src="https://www.facebook.com/images/fb_icon_325x325.png" alt="" />
+                            <span>Continue with Facebook</span>
                         </div>
                     </form>
                 </div>
